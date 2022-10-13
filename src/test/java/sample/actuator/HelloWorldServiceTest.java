@@ -12,7 +12,7 @@ public class HelloWorldServiceTest {
 	public void gethelloMessageOnce() {
 		HelloWorldService helloWorldService = new HelloWorldService();
 		
-		assertEquals("Hola Hola",helloWorldService.getHelloMessage());
+		assertEquals("Holas Holas",helloWorldService.getHelloMessage());
 		
 		assertEquals("Hello Hello",helloWorldService.getHelloMessage());
 	}
