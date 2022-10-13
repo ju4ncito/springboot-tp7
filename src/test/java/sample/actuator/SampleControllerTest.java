@@ -26,6 +26,6 @@ public class SampleControllerTest extends AbstractTest {
         String content = mvcResult.getResponse().getContentAsString();
         int status = mvcResult.getResponse().getStatus();
         assertEquals(200, status);
-        assertEquals("Expected correct message","{\"message\":\"Hola Hola\"}",content);
+        assertEquals("Expected correct message","{\"message\":\"Holas Holas\"}",content);
     }
 }

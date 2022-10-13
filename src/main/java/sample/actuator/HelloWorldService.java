@@ -27,7 +27,7 @@ public class HelloWorldService {
 	public String getHelloMessage() {
 		if(pair) {
 			pair = false;
-			return "Hola Hola";
+			return "Holas Holas";
 			
 		}else {
 			pair = true;
